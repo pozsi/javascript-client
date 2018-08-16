@@ -49,7 +49,7 @@
      * @type {String}
      * @default https://petstore.swagger.io/v2
      */
-    this.basePath = 'https://localhost:8080/v2'.replace(/\/+$/, '');
+    this.basePath = 'http://localhost:8080/v2'.replace(/\/+$/, '');
 
     /**
      * The authentication methods to be included for all API calls.
